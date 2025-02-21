@@ -13,10 +13,10 @@ interface ConsumptionMethodOptionProps {
   option: ConsumptionMethod;
 }
 
-const consumptionMethodOption = ({
+const ConsumptionMethodOption = ({
   slug,
-  imageUrl,
   imageAlt,
+  imageUrl,
   buttonText,
   option,
 }: ConsumptionMethodOptionProps) => {
@@ -41,4 +41,4 @@ const consumptionMethodOption = ({
   );
 };
 
-export default consumptionMethodOption;
+export default ConsumptionMethodOption;
